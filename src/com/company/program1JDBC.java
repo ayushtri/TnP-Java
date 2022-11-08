@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class program1JDBC {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        //git check
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
             String path = "jdbc:mysql://localhost:3306/tnpjava";
